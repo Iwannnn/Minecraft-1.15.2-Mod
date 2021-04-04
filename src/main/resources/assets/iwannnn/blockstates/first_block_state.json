@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "face=0": {
+            "model": "iwannnn:block/first_block_state/first_block_state_0"
+        },
+        "face=1": {
+            "model": "iwannnn:block/first_block_state/first_block_state_1"
+        }
+    }
+}
