@@ -2,13 +2,12 @@ package cn.iwannnn.counter_block;
 
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tileentity.TileEntity;
-import org.lwjgl.system.CallbackI.P;
 
 public class CounterBlockTileEntity extends TileEntity {
     private int counter = 0;
 
     public CounterBlockTileEntity() {
-        super(TileEntityTypeRegistry.counterBlockTileEntity.get());
+        super(TileEntityTypeRegistry.counterBlockTileEntity.get()); //获取注册的方块
     }
 
     public int increase() {
