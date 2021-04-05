@@ -1,4 +1,4 @@
-package cn.iwannnn.first_block;
+package cn.iwannnn.first_obj;
 
 import cn.iwannnn.group.ModGroup;
 import net.minecraft.item.BlockItem;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "iwannnn");
-    public static RegistryObject<Item> firstBlock = ITEMS.register("first_block", () -> {
+    public static RegistryObject<Item> firstBlock = ITEMS.register("first_obj", () -> {
         return new BlockItem(BlockRegistry.firstBlock.get(), new Item.Properties().group(ModGroup.iwannnnGroup));
     });
 }

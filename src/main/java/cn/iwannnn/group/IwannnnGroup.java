@@ -4,8 +4,8 @@ import cn.iwannnn.first_item.ItemRegistry;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
-public class FirstGroup extends ItemGroup {
-    public FirstGroup() {
+public class IwannnnGroup extends ItemGroup {
+    public IwannnnGroup() {
         super("first_group");
     }
 

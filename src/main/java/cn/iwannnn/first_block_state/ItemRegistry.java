@@ -10,6 +10,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "iwannnn");
     public static final RegistryObject<Item> firstBlockState = ITEMS.register("first_block_state", () -> {
-        return new BlockItem(BlockRegistry.firstBlockState.get(), new Item.Properties().group(ModGroup.firstGroup));
+        return new BlockItem(BlockRegistry.firstBlockState.get(), new Item.Properties().group(ModGroup.iwannnnGroup));
     });
 }

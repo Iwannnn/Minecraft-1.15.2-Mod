@@ -10,6 +10,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "iwannnn");
     public static RegistryObject<Item> counterBlockTileEntity = ITEMS.register("counter_block", () -> {
-        return new BlockItem(BlockRegistry.counterBlockTileEntity.get(), new Item.Properties().group(ModGroup.firstGroup));
+        return new BlockItem(BlockRegistry.counterBlockTileEntity.get(), new Item.Properties().group(ModGroup.iwannnnGroup));
     });
 }

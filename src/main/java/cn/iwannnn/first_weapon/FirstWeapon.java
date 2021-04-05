@@ -41,6 +41,6 @@ public class FirstWeapon extends SwordItem {
     };
 
     public FirstWeapon() {
-        super(itemTier, 3, -2.4F, new Item.Properties().group(ModGroup.firstGroup));
+        super(itemTier, 3, -2.4F, new Item.Properties().group(ModGroup.iwannnnGroup));
     }
 }

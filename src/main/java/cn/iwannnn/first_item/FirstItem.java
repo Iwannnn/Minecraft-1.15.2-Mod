@@ -9,6 +9,6 @@ public class FirstItem extends Item {
         // public Item(Item.Properties p_i48487_1_)
         // public Item.Properties tab(ItemGroup p_200916_1_)
         // public static final ItemGroup TAB_MATERIALS = TAB_MISC;
-        super(new Properties().group(ModGroup.firstGroup));
+        super(new Properties().group(ModGroup.iwannnnGroup));
     }
 }
