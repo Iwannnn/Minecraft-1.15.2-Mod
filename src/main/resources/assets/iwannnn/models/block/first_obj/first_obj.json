@@ -1,0 +1,5 @@
+{
+    "loader": "forge:obj",
+    "model": "iwannnn:models/block/first_obj/first_obj.obj",
+    "flip-v": true
+}

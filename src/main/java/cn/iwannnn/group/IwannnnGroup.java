@@ -6,7 +6,7 @@ import net.minecraft.item.ItemStack;
 
 public class IwannnnGroup extends ItemGroup {
     public IwannnnGroup() {
-        super("first_group");
+        super("iwannnn_group");
     }
 
     @Override
