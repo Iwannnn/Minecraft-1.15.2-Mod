@@ -1,4 +1,4 @@
-package cn.iwannnn.hello_block;
+package cn.iwannnn.zombie_block;
 
 import cn.iwannnn.group.ModGroup;
 import net.minecraft.item.BlockItem;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, "iwannnn");
-    public static RegistryObject<Item> helloBlockTileEntity = ITEMS.register("hello_block", () -> {
-        return new BlockItem(BlockRegistry.helloBlockTileEntity.get(), new Item.Properties().group(ModGroup.iwannnnGroup));
+    public static RegistryObject<Item> zombieBlockTileEntity = ITEMS.register("zombie_block", () -> {
+        return new BlockItem(BlockRegistry.zombieBlockTileEntity.get(), new Item.Properties().group(ModGroup.iwannnnGroup));
     });
 }

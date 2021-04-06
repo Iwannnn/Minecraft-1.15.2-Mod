@@ -1,8 +1,8 @@
 {
     "credit": "Made with Blockbench",
     "textures": {
-        "0": "iwannnn:block/first_block",
-        "particle": "iwannnn:block/first_block"
+        "0": "iwannnn:block/first_block/first_block",
+        "particle": "iwannnn:block/first_block/first_block"
     },
     "elements": [
         {
