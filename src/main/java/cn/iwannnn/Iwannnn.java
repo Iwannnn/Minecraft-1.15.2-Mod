@@ -20,12 +20,18 @@ public class Iwannnn {
         cn.iwannnn.first_obj.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.counter_block.BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.counter_block.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        cn.iwannnn.counter_block.TileEntityTypeRegistry.TILE_ENTITY.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.counter_block.TileEntityTypeRegistry.TILE_ENTITY
+                .register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.hello_block.BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.hello_block.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        cn.iwannnn.hello_block.TileEntityTypeRegistry.TILE_ENTITY.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.hello_block.TileEntityTypeRegistry.TILE_ENTITY
+                .register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.zombie_block.BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.zombie_block.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        cn.iwannnn.zombie_block.TileEntityTypeRegistry.TILE_ENTITY.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.zombie_block.TileEntityTypeRegistry.TILE_ENTITY
+                .register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.hidden_block.BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.hidden_block.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.network.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }
