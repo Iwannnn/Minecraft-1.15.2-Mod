@@ -35,5 +35,7 @@ public class Iwannnn {
         cn.iwannnn.network.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.flying_sword.EntityTypeRegistry.ENTITY_TYPE
                 .register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.first_animal.EntityTypeRegistry.ENTITY_TYPE
+                .register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }
