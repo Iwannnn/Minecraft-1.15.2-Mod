@@ -38,5 +38,8 @@ public class Iwannnn {
         cn.iwannnn.first_animal.EntityTypeRegistry.ENTITY_TYPE
                 .register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.first_gui.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.first_fluid.BlockRegistry.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.first_fluid.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.first_fluid.FluidRegistry.FLUIDS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }

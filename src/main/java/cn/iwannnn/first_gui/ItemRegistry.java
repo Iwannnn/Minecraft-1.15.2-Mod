@@ -1,7 +1,5 @@
 package cn.iwannnn.first_gui;
 
-import org.lwjgl.system.CallbackI.F;
-
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
