@@ -28,7 +28,7 @@ public class DiamondHouse extends Structure<NoFeatureConfig> {
     @Override
     public boolean canBeGenerated(BiomeManager biomeManagerIn, ChunkGenerator<?> generatorIn, Random randIn, int chunkX,
             int chunkZ, Biome biomeIn) {
-        if (randIn.nextFloat() < 0.03) {
+        if (randIn.nextFloat() < 0.003) {
             return true;
         }
         return false;
