@@ -9,11 +9,8 @@ import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.network.NetworkHooks;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class FlyingSwordEntity extends Entity {
-    private Logger logger = LogManager.getLogger();
     private static final DataParameter<Integer> COUNTER = EntityDataManager.createKey(FlyingSwordEntity.class,
             DataSerializers.VARINT);// 想要同步的数据 必须是static 通过调用EntityDataManager.createKey来创建需要同步的数据，第一个参数是填入实体的类
                                     // 第二个参数是变量如何转换为字节流，interger类型调用DataSerializers,VARINT 其他的数据类型得调用其他的方法
