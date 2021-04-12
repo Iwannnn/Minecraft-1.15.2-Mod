@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "iwannnn:first_item"
+        }
+    },
+    "result": {
+        "item": "iwannnn:first_block",
+        "count": 1
+    }
+}
