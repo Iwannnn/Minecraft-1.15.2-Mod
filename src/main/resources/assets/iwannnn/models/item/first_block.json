@@ -1,3 +1,27 @@
 {
-    "parent": "iwannnn:block/first_block/first_block"
+	"credit": "Made with Blockbench",
+	"parent": "iwannnn:block/first_block/first_block",
+	"textures": {
+		"0": "iwannnn:block/first_block/first_block",
+		"particle": "iwannnn:block/first_block/first_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [4, 4, 4],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"up": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"down": {"uv": [0, 0, 4, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [6.5, 7.25, 5.25]
+		}
+	}
 }
