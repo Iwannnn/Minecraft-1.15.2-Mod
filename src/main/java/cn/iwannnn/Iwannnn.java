@@ -42,5 +42,7 @@ public class Iwannnn {
         cn.iwannnn.first_fluid.ItemRegistry.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.first_fluid.FluidRegistry.FLUIDS.register(FMLJavaModLoadingContext.get().getModEventBus());
         cn.iwannnn.diamond_house.FeatureRegistry.FEATURES.register(FMLJavaModLoadingContext.get().getModEventBus());
+        cn.iwannnn.dimensions.ModDimensionRegistry.MOD_DIMENSIONS
+                .register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 }
